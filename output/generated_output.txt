@@ -1,0 +1,4 @@
+Game.baypatrol.Client|GameName10|message=text10
+Game.baypatrol.Client|GameName11|message=text11
+Game.baypatrol.Client|GameName10|message=text10
+Game.baypatrol.Client|GameName11|message=text11
