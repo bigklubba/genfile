@@ -1,3 +1,6 @@
+/**
+ * Just a small program to generate text
+ */
 public class StartGen {
 
     public static void main(String args[]) {
