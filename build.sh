@@ -10,11 +10,11 @@ else
     _RUNJAR="$JAVA_HOME/bin/jar"
 fi
 
-echo "######### COMPILING #########"
+echo "########## COMPILING ##########"
 $_RUNJAVAC src/*.java $@
 
-echo "######### MOVING CLASS FILES #########"
+echo "########## MOVING CLASS FILES ##########"
 mv src/*.class bin/
 
-echo "######### GENERATING JAR FILE #########"
+echo "########## GENERATING JAR FILE ##########"
 $_RUNJAR cvfe bin/genfile.jar StartGen bin/*.class
