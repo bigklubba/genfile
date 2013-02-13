@@ -11,6 +11,4 @@ fi
 echo "###### GENERATE OUTPUT    ######"
 $_RUNJAVA -jar "$SCRIPT_DIR/target/genfile-1.0-SNAPSHOT-jar-with-dependencies.jar" $@ >> output/generated_output.txt
 echo "###### DONE               ######"
-# $_RUNJAVA $MEM_OPTS -server -jar "$SCRIPT_DIR/upgrade-tool-${version}.jar" $@
-
 
